@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Music Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Wildlife Music Studio</h1>
+    <p>Create amazing animal music videos</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>My Music Project</h2>
+      <audio id="audioPlayer" controls></audio>
+      <input type="file" id="audioUpload" accept="audio/*">
+    </section>
+
+    <section>
+      <h2>Animal Scenes</h2>
+      <div id="scenes"></div>
+    </section>
+
+    <section>
+      <h2>Lyrics Editor</h2>
+      <textarea id="lyrics" placeholder="Write your song lyrics here..."></textarea>
+    </section>
+
+    <button id="exportButton">Export Project JSON</button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
